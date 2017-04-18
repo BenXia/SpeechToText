@@ -1,0 +1,60 @@
+//
+//  QQing-Prefix.pch
+//  QQing
+//
+//  Created by 李杰 on 1/23/15.
+//
+//
+
+#ifndef QQing_QQing_Prefix_pch
+#define QQing_QQing_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
+#import "macrodef.h"
+#import "typedef.h"
+#import "commonConstDef.h"
+
+#import "QQingUtils.h"
+
+#import "MBProgressHUD.h"
+#import "GCDObjC.h"
+#import "PlaceholderTextView.h"
+
+#import "UILabel+Size.h"
+#import "UIView+Frame.h"
+#import "UIView+Shape.h"
+#import "UIView+Size.h"
+#import "UIView+Hierarchy.h"
+#import "NSString+Size.h"
+#import "NSString+PlaceHolder.h"
+#import "UIColor+theme.h"
+#import "UIColor-Expanded.h"
+#import "UIImage+Utility.h"
+#import "UIButton+Theme.h"
+#import "UITextField+ExtentRange.h"
+#import "QQObjectSafe.h"
+
+#import "JRSwizzle.h"
+#import "RACSignal+Extension.h"
+
+#import "Masonry.h"
+#import "ReactiveCocoa.h"
+
+#import "QQingWindowRootViewController.h"
+#import "BaseBottomPopoverVC.h"
+
+#import "QQingSpeechRecognizer.h"
+#import "VolumeWaveView.h"
+#import "QQingSTTBottomVC.h"
+#import "QQingSTTView.h"
+
+#endif
+
+#endif
